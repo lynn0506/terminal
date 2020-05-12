@@ -8,7 +8,8 @@
     find . -name “ *.zsh” | xargs dos2unix -f
 
 ## git LF <--> CRLF 줄바꿈 error
-    자동적으로 운영체제에 맞게 파일의 줄바꿈을 설정하도록 한다. 
+### 자동적으로 운영체제에 맞게 파일의 줄바꿈을 설정하도록 한다. 
+
     git config --global core.autocrlf true
 
 ## git status/ git commit 한글 파일명 깨짐 현상
